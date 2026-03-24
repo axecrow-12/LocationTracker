@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LocationTracker</string>
+    <string name="add_new_location">Add New Location</string>
+    <string name="add_location_description">Save a place and create a geofence around it</string>
+    <string name="location_name_hint">Location Name</string>
+    <string name="location_address_hint">Address</string>
+    <string name="save_location">Save Location</string>
+</resources>
