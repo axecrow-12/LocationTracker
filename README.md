@@ -1,6 +1,6 @@
 # LocationTracker 📍
 
-An Android application that tracks user location, supports geofencing, and provides navigation.
+Android application for GPS tracking, geofencing, and navigation using Google Maps APIs.
 
 ## Features
 - GPS location tracking
