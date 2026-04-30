@@ -3,7 +3,7 @@
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.IN
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <!-- Needed on Android 10+ for background geofencing -->
     <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
@@ -19,9 +19,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LocationTracker">
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAXR2RukeKelltrF_QQQC8xD3emSkV3Yc0" />
+        <!-- Removed Google Maps API Key as project switched to OpenStreetMap -->
 
         <receiver
             android:name=".receivers.GeofenceBroadcastReceiver"
