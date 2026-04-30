@@ -5,4 +5,10 @@
     <string name="location_name_hint">Location Name</string>
     <string name="location_address_hint">Address</string>
     <string name="save_location">Save Location</string>
+    <string name="live_map">Live Map</string>
+    <string name="view_current_position">View your current position and saved places</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="empty_value">--</string>
+    <string name="refresh_current_location">Refresh Current Location</string>
 </resources>

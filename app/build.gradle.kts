@@ -48,7 +48,9 @@ dependencies {
     implementation("androidx.fragment:fragment:1.8.2")
 
     implementation("com.google.android.gms:play-services-location:21.3.0")
-    implementation("com.google.android.gms:play-services-maps:19.0.0")
+    
+    // Replacing Google Maps with OpenStreetMap
+    implementation("org.osmdroid:osmdroid-android:6.1.18")
 
     implementation("androidx.room:room-runtime:2.6.1")
     annotationProcessor("androidx.room:room-compiler:2.6.1")
